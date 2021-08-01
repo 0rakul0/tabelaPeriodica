@@ -7,16 +7,17 @@ header{
     top:0;
     left:0;
     width:100%;
-    display:flex;
     justify-content:space-between;
     align-items:center;
     transition: 0.5s;
-    padding: 40px 100px;
+    padding: 5px 100px;
+    background: #fff;
+    z-index: 100;
 }
 header .logo{
     position: relative;
     font-weight: 700;
-    color:#fff;
+    color:#000;
     text-decoration: none;
     font-size: 2em;
     text-transform: uppercase;
@@ -37,13 +38,8 @@ header ul li a{
     position: relative;
     margin: 0 15px;
     text-decoration: none;
-    color:#fff;
+    color:#000;
     letter-spacing: 2px;
     font-weight: 500;
     transition: 0.5s;
-}
-.banner{
-    position:relative;
-    width:100%;
-    height:100vh;
 }

@@ -9,14 +9,16 @@ body{
     min-height:100vh;
     background: #2b2b2b;
     transition: 0.5s;
-    min-height: 200vh;
+    color: #f8f8f8;
+    align-items: center;
+    justify-content:center;
 }
 body.active{
     background: #f8f8f8;
+    color: #000;
 }
 header{
-    display: flex;
-    
+    display: flex; 
 }
 #toggle{
     position: relative;
@@ -59,3 +61,4 @@ header{
     box-shadow: 0 8px 20px rgba(0,0,0,0.5),
                 inset 0  -4px  4px rgba(255,255,255,0.2);
 }
+

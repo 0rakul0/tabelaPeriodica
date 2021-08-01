@@ -8,33 +8,760 @@
   <title>Tabela Periodica</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/corpo.css">
+  <link rel="stylesheet" href="css/conteudo.css">
 </head>
 
 <body>
   <header>
     <a href="#" class="logo">TP</a>
-    <div>
-     <ul>
-       <li><a href="#">Tabala</a></li>
-       <li><a href="#">Química</a></li>
-       <li><a href="#">Contato</a></li>
-     </ul>
- 
-     <div id="toggle">
-       <i class="indicator"></i>
-     </div>  
-   </div>
+    <ul>
+      <li><a href="#">Tabala</a></li>
+      <li><a href="#">Química</a></li>
+      <li><a href="#">Contato</a></li>
+    </ul>
+    <div id="toggle">
+      <i class="indicator"></i>
+    </div>
   </header>
-  
   <main>
-    <section class="banner">
-
+    <section class="tabelaPeriodica">
+      <div class="elementos">
+        <div class="column">
+          <div class="card gas">
+            <h3 id="nomeElemento">H</h3>
+            <h4 id="numeroAtomico">1</h4>
+            <span>hidrogênio</span>
+          </div>
+          <div class="card alcalinos-metal">
+            <h3 id="nomeElemento">Li</h3>
+            <h4 id="numeroAtomico">3</h4>
+            <span>Lítio</span>
+          </div>
+          <div class="card alcalinos-metal">
+            <h3 id="nomeElemento">Na</h3>
+            <h4 id="numeroAtomico">11</h4>
+            <span>Sódio</span>
+          </div>
+          <div class="card alcalinos-metal">
+            <h3 id="nomeElemento">K</h3>
+            <h4 id="numeroAtomico">19</h4>
+            <span>Potácio</span>
+          </div>
+          <div class="card alcalinos-metal">
+            <h3 id="nomeElemento">Rb</h3>
+            <h4 id="numeroAtomico">37</h4>
+            <span>Rubídio</span>
+          </div>
+          <div class="card alcalinos-metal">
+            <h3 id="nomeElemento">Cs</h3>
+            <h4 id="numeroAtomico">55</h4>
+            <span>Cécio</span>
+          </div>
+          <div class="card alcalinos-metal">
+            <h3 id="nomeElemento">Fr</h3>
+            <h4 id="numeroAtomico">87</h4>
+            <span>Frâncio</span>
+          </div>
+          <div class="card">
+            <h3 id="nomeElemento"></h3>
+            <h4 id="numeroAtomico"></h4>
+          </div>
+          <div class="card">
+            <h3 id="nomeElemento"></h3>
+            <h4 id="numeroAtomico"></h4>
+          </div>
+          <div class="card">
+            <h3 id="nomeElemento"></h3>
+            <h4 id="numeroAtomico"></h4>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card alcaliterroso-metal">
+            <h3 id="nomeElemento">Be</h3>
+            <h4 id="numeroAtomico">4</h4>
+            <span>Berílio</span>
+          </div>
+          <div class="card alcaliterroso-metal">
+            <h3 id="nomeElemento">Mg</h3>
+            <h4 id="numeroAtomico">12</h4>
+            <span>Magnésio</span>
+          </div>
+          <div class="card alcaliterroso-metal">
+            <h3 id="nomeElemento">Ca</h3>
+            <h4 id="numeroAtomico">20</h4>
+            <span>Cálcio</span>
+          </div>
+          <div class="card alcaliterroso-metal">
+            <h3 id="nomeElemento">Sr</h3>
+            <h4 id="numeroAtomico">38</h4>
+            <span>Estrôncio</span>
+          </div>
+          <div class="card alcaliterroso-metal">
+            <h3 id="nomeElemento">Ba</h3>
+            <h4 id="numeroAtomico">56</h4>
+            <span>Bário</span>
+          </div>
+          <div class="card alcaliterroso-metal">
+            <h3 id="nomeElemento">Ra</h3>
+            <h4 id="numeroAtomico">88</h4>
+            <span>Rádio</span>
+          </div>
+          <div class="card">
+            <h3 id="nomeElemento"></h3>
+            <h4 id="numeroAtomico"></h4>
+          </div>
+          <div class="card latinidios">
+            <h3 id="nomeElemento">La</h3>
+            <h4 id="numeroAtomico">57</h4>
+            <span >Lantânio</span>
+          </div>
+          <div class="card latinidios">
+            <h3 id="nomeElemento">Ac</h3>
+            <h4 id="numeroAtomico">89</h4>
+            <span >Actínio</span>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card metais">
+            <h3 id="nomeElemento">Sc</h3>
+            <h4 id="numeroAtomico">21</h4>
+            <span>Escândio</span>
+          </div>
+          <div class="card metais">
+            <h3 id="nomeElemento">Y</h3>
+            <h4 id="numeroAtomico">39</h4>
+            <span>Ítrio</span>
+          </div>
+          <div class="card">
+            <h3 id="nomeElemento"></h3>
+            <h4 id="numeroAtomico"></h4>
+          </div>
+          <div class="card">
+            <h3 id="nomeElemento"></h3>
+            <h4 id="numeroAtomico"></h4>
+          </div>
+          <div class="card">
+            <h3 id="nomeElemento"></h3>
+            <h4 id="numeroAtomico"></h4>
+          </div>
+          <div class="card latinidios">
+            <h3 id="nomeElemento">Ce</h3>
+            <h4 id="numeroAtomico">58</h4>
+            <span >Cério</span>
+          </div>
+          <div class="card latinidios">
+            <h3 id="nomeElemento">Tr</h3>
+            <h4 id="numeroAtomico">90</h4>
+            <span >Tório</span>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card metais">
+            <h3 id="nomeElemento">Ti</h3>
+            <h4 id="numeroAtomico">22</h4>
+            <span>Titânio</span>
+          </div>
+          <div class="card metais">
+            <h3 id="nomeElemento">Zr</h3>
+            <h4 id="numeroAtomico">40</h4>
+            <span>Zircônio</span>
+          </div>
+          <div class="card metais">
+            <h3 id="nomeElemento">Hf</h3>
+            <h4 id="numeroAtomico">72</h4>
+            <span>Háfinio</span>
+          </div>
+          <div class="card metais">
+            <h3 id="nomeElemento">Rf</h3>
+            <h4 id="numeroAtomico">104</h4>
+            <span>Rutherfórdio</span>
+          </div>
+          <div class="card">
+            <h3 id="nomeElemento"></h3>
+            <h4 id="numeroAtomico"></h4>
+          </div>
+          <div class="card latinidios">
+            <h3 id="nomeElemento">Pr</h3>
+            <h4 id="numeroAtomico">59</h4>
+            <span >Praseodímio</span>
+          </div>
+          <div class="card latinidios">
+            <h3 id="nomeElemento">Pa</h3>
+            <h4 id="numeroAtomico">91</h4>
+            <span >Protactínio</span>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card metais">
+            <h3 id="nomeElemento">V</h3>
+            <h4 id="numeroAtomico">23</h4>
+            <span>Venádio</span>
+          </div>
+          <div class="card metais">
+            <h3 id="nomeElemento">Nb</h3>
+            <h4 id="numeroAtomico">41</h4>
+            <span>Nióbio</span>
+          </div>
+          <div class="card metais">
+            <h3 id="nomeElemento">Ta</h3>
+            <h4 id="numeroAtomico">73</h4>
+            <span>Tântalo</span>
+          </div>
+          <div class="card metais">
+            <h3 id="nomeElemento">Db</h3>
+            <h4 id="numeroAtomico">105</h4>
+            <span>Dubnio</span>
+          </div>
+          <div class="card">
+            <h3 id="nomeElemento"></h3>
+            <h4 id="numeroAtomico"></h4>
+          </div>
+          <div class="card latinidios">
+            <h3 id="nomeElemento">Nd</h3>
+            <h4 id="numeroAtomico">60</h4>
+            <span >Neodímio</span>
+          </div>
+          <div class="card latinidios">
+            <h3 id="nomeElemento">U</h3>
+            <h4 id="numeroAtomico">92</h4>
+            <span >Urânio</span>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card metais">
+            <h3 id="nomeElemento">Cr</h3>
+            <h4 id="numeroAtomico">24</h4>
+            <span>Crômio</span>
+          </div>
+          <div class="card metais">
+            <h3 id="nomeElemento">Mo</h3>
+            <h4 id="numeroAtomico">42</h4>
+            <span>Molibdênio</span>
+          </div>
+          <div class="card metais">
+            <h3 id="nomeElemento">W</h3>
+            <h4 id="numeroAtomico">74</h4>
+            <span>Tugstênio</span>
+          </div>
+          <div class="card metais">
+            <h3 id="nomeElemento">Sg</h3>
+            <h4 id="numeroAtomico">106</h4>
+            <span>Seabórgio</span>
+          </div>
+          <div class="card">
+            <h3 id="nomeElemento"></h3>
+            <h4 id="numeroAtomico"></h4>
+          </div>
+          <div class="card latinidios">
+            <h3 id="nomeElemento">Pm</h3>
+            <h4 id="numeroAtomico">61</h4>
+            <span >Proécio</span>
+          </div>
+          <div class="card latinidios">
+            <h3 id="nomeElemento">Np</h3>
+            <h4 id="numeroAtomico">93</h4>
+            <span >Neptúnio</span>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card metais">
+            <h3 id="nomeElemento">Mn</h3>
+            <h4 id="numeroAtomico">25</h4>
+            <span>Manganês</span>
+          </div>
+          <div class="card metais">
+            <h3 id="nomeElemento">Tc</h3>
+            <h4 id="numeroAtomico">43</h4>
+            <span>Tecnécio</span>
+          </div>
+          <div class="card metais">
+            <h3 id="nomeElemento">Re</h3>
+            <h4 id="numeroAtomico">75</h4>
+            <span>Rênio</span>
+          </div>
+          <div class="card metais">
+            <h3 id="nomeElemento">Bh</h3>
+            <h4 id="numeroAtomico">107</h4>
+            <span>Bóhrio</span>
+          </div>
+          <div class="card">
+            <h3 id="nomeElemento"></h3>
+            <h4 id="numeroAtomico"></h4>
+          </div>
+          <div class="card latinidios">
+            <h3 id="nomeElemento">Sm</h3>
+            <h4 id="numeroAtomico">62</h4>
+            <span >Semário</span>
+          </div>
+          <div class="card latinidios">
+            <h3 id="nomeElemento">Pu</h3>
+            <h4 id="numeroAtomico">94</h4>
+            <span >Plutônio</span>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card metais">
+            <h3 id="nomeElemento">Fe</h3>
+            <h4 id="numeroAtomico">26</h4>
+            <span>Ferro</span>
+          </div>
+          <div class="card metais">
+            <h3 id="nomeElemento">Ru</h3>
+            <h4 id="numeroAtomico">44</h4>
+            <span>Rutênio</span>
+          </div>
+          <div class="card metais">
+            <h3 id="nomeElemento">Os</h3>
+            <h4 id="numeroAtomico">76</h4>
+            <span>Ósmio</span>
+          </div>
+          <div class="card metais">
+            <h3 id="nomeElemento">Hs</h3>
+            <h4 id="numeroAtomico">108</h4>
+            <span>Hássio</span>
+          </div>
+          <div class="card">
+            <h3 id="nomeElemento"></h3>
+            <h4 id="numeroAtomico"></h4>
+          </div>
+          <div class="card latinidios">
+            <h3 id="nomeElemento">Eu</h3>
+            <h4 id="numeroAtomico">63</h4>
+            <span >Európio</span>
+          </div>
+          <div class="card latinidios">
+            <h3 id="nomeElemento">Am</h3>
+            <h4 id="numeroAtomico">95</h4>
+            <span>Amerício</span>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card metais">
+            <h3 id="nomeElemento">Co</h3>
+            <h4 id="numeroAtomico">27</h4>
+            <span>Cobalto</span>
+          </div>
+          <div class="card metais">
+            <h3 id="nomeElemento">Rh</h3>
+            <h4 id="numeroAtomico">45</h4>
+            <span>Ródio</span>
+          </div>
+          <div class="card metais">
+            <h3 id="nomeElemento">Ir</h3>
+            <h4 id="numeroAtomico">77</h4>
+            <span>Irídio</span>
+          </div>
+          <div class="card metais">
+            <h3 id="nomeElemento">Mt</h3>
+            <h4 id="numeroAtomico">109</h4>
+            <span>Meitnério</span>
+          </div>
+          <div class="card">
+            <h3 id="nomeElemento"></h3>
+            <h4 id="numeroAtomico"></h4>
+          </div>
+          <div class="card latinidios">
+            <h3 id="nomeElemento">Gd</h3>
+            <h4 id="numeroAtomico">64</h4>
+            <span >Gadolínio</span>
+          </div>
+          <div class="card latinidios">
+            <h3 id="nomeElemento">Cm</h3>
+            <h4 id="numeroAtomico">96</h4>
+            <span >Cúrio</span>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card metais">
+            <h3 id="nomeElemento">Ni</h3>
+            <h4 id="numeroAtomico">28</h4>
+            <span>Níquel</span>
+          </div>
+          <div class="card metais">
+            <h3 id="nomeElemento">Pd</h3>
+            <h4 id="numeroAtomico">46</h4>
+            <span>Paládio</span>
+          </div>
+          <div class="card metais">
+            <h3 id="nomeElemento">Pt</h3>
+            <h4 id="numeroAtomico">78</h4>
+            <span>Platina</span>
+          </div>
+          <div class="card metais">
+            <h3 id="nomeElemento">Ds</h3>
+            <h4 id="numeroAtomico">110</h4>
+            <span>Darmstádtio</span>
+          </div>
+          <div class="card">
+            <h3 id="nomeElemento"></h3>
+            <h4 id="numeroAtomico"></h4>
+          </div>
+          <div class="card latinidios">
+            <h3 id="nomeElemento">Tb</h3>
+            <h4 id="numeroAtomico">65</h4>
+            <span >Térbio</span>
+          </div>
+          <div class="card latinidios">
+            <h3 id="nomeElemento">Bk</h3>
+            <h4 id="numeroAtomico">97</h4>
+            <span>Berquélio</span>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card metais">
+            <h3 id="nomeElemento">Cu</h3>
+            <h4 id="numeroAtomico">29</h4>
+            <span>Cobre</span>
+          </div>
+          <div class="card metais">
+            <h3 id="nomeElemento">Ag</h3>
+            <h4 id="numeroAtomico">47</h4>
+            <span>Prata</span>
+          </div>
+          <div class="card metais">
+            <h3 id="nomeElemento">Au</h3>
+            <h4 id="numeroAtomico">79</h4>
+            <span>Ouro</span>
+          </div>
+          <div class="card metais">
+            <h3 id="nomeElemento">Rg</h3>
+            <h4 id="numeroAtomico">111</h4>
+            <span>Roentgênio</span>
+          </div>
+          <div class="card">
+            <h3 id="nomeElemento"></h3>
+            <h4 id="numeroAtomico"></h4>
+          </div>
+          <div class="card latinidios">
+            <h3 id="nomeElemento">Dy</h3>
+            <h4 id="numeroAtomico">66</h4>
+            <span >Disprósio</span>
+          </div>
+          <div class="card latinidios">
+            <h3 id="nomeElemento">Cf</h3>
+            <h4 id="numeroAtomico">98</h4>
+            <span >Califórnio</span>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card metais">
+            <h3 id="nomeElemento">Zn</h3>
+            <h4 id="numeroAtomico">30</h4>
+            <span>Zinco</span>
+          </div>
+          <div class="card metais">
+            <h3 id="nomeElemento">Cd</h3>
+            <h4 id="numeroAtomico">48</h4>
+            <span>Cádimio</span>
+          </div>
+          <div class="card metais">
+            <h3 id="nomeElemento">Hg</h3>
+            <h4 id="numeroAtomico">80</h4>
+            <span>Mercúrio</span>
+          </div>
+          <div class="card metais">
+            <h3 id="nomeElemento">Cn</h3>
+            <h4 id="numeroAtomico">112</h4>
+            <span>Copernício</span>
+          </div>
+          <div class="card">
+            <h3 id="nomeElemento"></h3>
+            <h4 id="numeroAtomico"></h4>
+          </div>
+          <div class="card latinidios">
+            <h3 id="nomeElemento">Ho</h3>
+            <h4 id="numeroAtomico">67</h4>
+            <span >Hôlmio</span>
+          </div>
+          <div class="card latinidios">
+            <h3 id="nomeElemento">Es</h3>
+            <h4 id="numeroAtomico">99</h4>
+            <span >Einstêni</span>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card semi-metais">
+            <h3 id="nomeElemento">B</h3>
+            <h4 id="numeroAtomico">5</h4>
+            <span>Boro</span>
+          </div>
+          <div class="card metais-Representativos">
+            <h3 id="nomeElemento">Al</h3>
+            <h4 id="numeroAtomico">13</h4>
+            <span>Alumínio</span>
+          </div>
+          <div class="card metais-Representativos">
+            <h3 id="nomeElemento">Ga</h3>
+            <h4 id="numeroAtomico">31</h4>
+            <span>Gálio</span>
+          </div>
+          <div class="card metais-Representativos">
+            <h3 id="nomeElemento">In</h3>
+            <h4 id="numeroAtomico">49</h4>
+            <span>Índio</span>
+          </div>
+          <div class="card metais-Representativos">
+            <h3 id="nomeElemento">Tl</h3>
+            <h4 id="numeroAtomico">81</h4>
+            <span>Tálio</span>
+          </div>
+          <div class="card artificial">
+            <h3 id="nomeElemento">Nh</h3>
+            <h4 id="numeroAtomico">113</h4>
+            <span>Nihônio</span>
+          </div>
+          <div class="card">
+            <h3 id="nomeElemento"></h3>
+            <h4 id="numeroAtomico"></h4>
+          </div>
+          <div class="card latinidios">
+            <h3 id="nomeElemento">Er</h3>
+            <h4 id="numeroAtomico">68</h4>
+            <span >Érbio</span>
+          </div>
+          <div class="card latinidios">
+            <h3 id="nomeElemento">Fm</h3>
+            <h4 id="numeroAtomico">100</h4>
+            <span >Férmio</span>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card nao-metais">
+            <h3 id="nomeElemento">C</h3>
+            <h4 id="numeroAtomico">6</h4>
+            <span>Carbono</span>
+          </div>
+          <div class="card semi-metais">
+            <h3 id="nomeElemento">Si</h3>
+            <h4 id="numeroAtomico">14</h4>
+            <span>Silício</span>
+          </div>
+          <div class="card semi-metais">
+            <h3 id="nomeElemento">Ge</h3>
+            <h4 id="numeroAtomico">32</h4>
+            <span>Germânio</span>
+          </div>
+          <div class="card metais-Representativos">
+            <h3 id="nomeElemento">Sn</h3>
+            <h4 id="numeroAtomico">50</h4>
+            <span>Estanho</span>
+          </div>
+          <div class="card metais-Representativos">
+            <h3 id="nomeElemento">Pb</h3>
+            <h4 id="numeroAtomico">82</h4>
+            <span>Chumbo</span>
+          </div>
+          <div class="card artificial">
+            <h3 id="nomeElemento">Fl</h3>
+            <h4 id="numeroAtomico">114</h4>
+            <span>Fleróvio</span>
+          </div>
+          <div class="card">
+            <h3 id="nomeElemento"></h3>
+            <h4 id="numeroAtomico"></h4>
+          </div>
+          <div class="card latinidios">
+            <h3 id="nomeElemento">Tm</h3>
+            <h4 id="numeroAtomico">69</h4>
+            <span>Túlio</span>
+          </div>
+          <div class="card latinidios">
+            <h3 id="nomeElemento">Md</h3>
+            <h4 id="numeroAtomico">101</h4>
+            <span >Mendelévio</span>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card nao-metais">
+            <h3 id="nomeElemento">N</h3>
+            <h4 id="numeroAtomico">7</h4>
+            <span>Nitrogênio</span>
+          </div>
+          <div class="card nao-metais">
+            <h3 id="nomeElemento">P</h3>
+            <h4 id="numeroAtomico">15</h4>
+            <span>Fósforo</span>
+          </div>
+          <div class="card semi-metais">
+            <h3 id="nomeElemento">As</h3>
+            <h4 id="numeroAtomico">33</h4>
+            <span>Arsênio</span>
+          </div>
+          <div class="card semi-metais">
+            <h3 id="nomeElemento">Sb</h3>
+            <h4 id="numeroAtomico">51</h4>
+            <span>Antimônio</span>
+          </div>
+          <div class="card metais-Representativos">
+            <h3 id="nomeElemento">Bi</h3>
+            <h4 id="numeroAtomico">83</h4>
+            <span>Bismuto</span>
+          </div>
+          <div class="card artificial">
+            <h3 id="nomeElemento">Mc</h3>
+            <h4 id="numeroAtomico">115</h4>
+            <span>Moscóvio</span>
+          </div>
+          <div class="card">
+            <h3 id="nomeElemento"></h3>
+            <h4 id="numeroAtomico"></h4>
+          </div>
+          <div class="card latinidios">
+            <h3 id="nomeElemento">Yb</h3>
+            <h4 id="numeroAtomico">70</h4>
+            <span >Itérbeio</span>
+          </div>
+          <div class="card latinidios">
+            <h3 id="nomeElemento">No</h3>
+            <h4 id="numeroAtomico">102</h4>
+            <span >Nobélio</span>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card nao-metais">
+            <h3 id="nomeElemento">O</h3>
+            <h4 id="numeroAtomico">8</h4>
+            <span>Oxigênio</span>
+          </div>
+          <div class="card nao-metais">
+            <h3 id="nomeElemento">S</h3>
+            <h4 id="numeroAtomico">16</h4>
+            <span>Enxofre</span>
+          </div>
+          <div class="card nao-metais">
+            <h3 id="nomeElemento">Se</h3>
+            <h4 id="numeroAtomico">34</h4>
+            <span>Selênio</span>
+          </div>
+          <div class="card semi-metais">
+            <h3 id="nomeElemento">Te</h3>
+            <h4 id="numeroAtomico">52</h4>
+            <span>Telúrio</span>
+          </div>
+          <div class="card semi-metais">
+            <h3 id="nomeElemento">Po</h3>
+            <h4 id="numeroAtomico">84</h4>
+            <span>Polônio</span>
+          </div>
+          <div class="card artificial">
+            <h3 id="nomeElemento">Lv</h3>
+            <h4 id="numeroAtomico">116</h4>
+            <span>Livermório</span>
+          </div>
+          <div class="card">
+            <h3 id="nomeElemento"></h3>
+            <h4 id="numeroAtomico"></h4>
+          </div>
+          <div class="card latinidios">
+            <h3 id="nomeElemento">Lu</h3>
+            <h4 id="numeroAtomico">71</h4>
+            <span >Lutécio</span>
+          </div>
+          <div class="card latinidios">
+            <h3 id="nomeElemento">Lr</h3>
+            <h4 id="numeroAtomico">103</h4>
+            <span >Laurêncio</span>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card halogenio">
+            <h3 id="nomeElemento">F</h3>
+            <h4 id="numeroAtomico">9</h4>
+            <span>Flúor</span>
+          </div>
+          <div class="card halogenio">
+            <h3 id="nomeElemento">Cl</h3>
+            <h4 id="numeroAtomico">17</h4>
+            <span>Cloro</span>
+          </div>
+          <div class="card halogenio">
+            <h3 id="nomeElemento">Br</h3>
+            <h4 id="numeroAtomico">35</h4>
+            <span>Bromo</span>
+          </div>
+          <div class="card halogenio">
+            <h3 id="nomeElemento">I</h3>
+            <h4 id="numeroAtomico">53</h4>
+            <span>Iodo</span>
+          </div>
+          <div class="card halogenio">
+            <h3 id="nomeElemento">At</h3>
+            <h4 id="numeroAtomico">85</h4>
+            <span>Astato</span>
+          </div>
+          <div class="card halogenio">
+            <h3 id="nomeElemento">Ts</h3>
+            <h4 id="numeroAtomico">117</h4>
+            <span>Tennesso</span>
+          </div>
+          <div class="card">
+            <h3 id="nomeElemento"></h3>
+            <h4 id="numeroAtomico"></h4>
+          </div>
+          <div class="card">
+            <h3 id="nomeElemento"></h3>
+            <h4 id="numeroAtomico"></h4>
+          </div>
+          <div class="card">
+            <h3 id="nomeElemento"></h3>
+            <h4 id="numeroAtomico"></h4>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card gas-nobre">
+            <h3 id="nomeElemento">He</h3>
+            <h4 id="numeroAtomico">2</h4>
+            <span>Hélio</span>
+          </div>
+          <div class="card gas-nobre">
+            <h3 id="nomeElemento">Ne</h3>
+            <h4 id="numeroAtomico">10</h4>
+            <span>Neônio</span>
+          </div>
+          <div class="card gas-nobre">
+            <h3 id="nomeElemento">Ar</h3>
+            <h4 id="numeroAtomico">18</h4>
+            <span>Argônio</span>
+          </div>
+          <div class="card gas-nobre">
+            <h3 id="nomeElemento">Kr</h3>
+            <h4 id="numeroAtomico">36</h4>
+            <span>Criptônio</span>
+          </div>
+          <div class="card gas-nobre">
+            <h3 id="nomeElemento">Xe</h3>
+            <h4 id="numeroAtomico">54</h4>
+            <span>Xenônio</span>
+          </div>
+          <div class="card gas-nobre">
+            <h3 id="nomeElemento">Rn</h3>
+            <h4 id="numeroAtomico">86</h4>
+            <span>Radônio</span>
+          </div>
+          <div class="card gas-nobre">
+            <h3 id="nomeElemento">Og</h3>
+            <h4 id="numeroAtomico">118</h4>
+            <span>Oganessônio</span>
+          </div>
+          <div class="card">
+            <h3 id="nomeElemento"></h3>
+            <h4 id="numeroAtomico"></h4>
+          </div>
+          <div class="card">
+            <h3 id="nomeElemento"></h3>
+            <h4 id="numeroAtomico"></h4>
+          </div>
+          <div class="card">
+            <h3 id="nomeElemento"></h3>
+            <h4 id="numeroAtomico"></h4>
+          </div>
+        </div>
+      </div>
     </section>
   </main>
-
   <footer>
-
   </footer>
-<script src="js/motor1.js"></script>
+  <script src="js/motor1.js"></script>
 </body>
+
 </html>

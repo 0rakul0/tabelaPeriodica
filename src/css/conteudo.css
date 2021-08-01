@@ -1,0 +1,108 @@
+.tabelaPeriodica{
+    transition: 0.5;
+    margin-top: 50px;
+}
+.elementos{
+    display: flex;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.row .card,
+.column .card{
+    position: relative;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    padding: 5px;
+    margin:1px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    z-index: 1
+}
+.elementos:hover .row .card,
+.elementos:hover .column .card{
+    display: flex;
+    filter: blur(1px);
+    opacity: 0.5;
+    transition: 0.5s ease-in-out;
+}
+.elementos .row .card:hover,
+.elementos .column .card:hover{
+    transform: scale(1.3);
+    filter: blur(0);
+    opacity: 1;
+    z-index: 2;
+}
+
+.card h3{
+    font-size:1.3em;
+}
+.card h4{
+    font-size:9px;
+}
+.card span{
+    display: none;
+    visibility:hidden;
+}
+
+.column .card:hover span{
+    display:contents;
+    font-size:10px;
+    visibility:visible;
+}
+.gas{
+    border: 1px solid rgb(0, 174, 255);
+    background: rgb(0, 174, 255, 0.3);
+}
+ .alcalinos-metal{
+    border: 1px solid rgb(255, 0, 0);
+    background: rgb(255, 0, 0, 0.3);
+    
+}
+.alcaliterroso-metal{
+    border: 1px solid rgb(255, 196, 0);
+    background: rgb(255, 196, 0, 0.3);
+}
+.metais{
+    border: 1px solid rgb(155, 155, 155);
+    background: rgb(155, 155, 155, 0.3);
+}
+.semi-metais{
+    border: 1px solid rgb(184, 238, 129);
+    background: rgb(184, 238, 129, 0.3);
+}
+.metais-Representativos{
+    border: 1px solid rgb(148, 255, 251);
+    background: rgb(148, 255, 251, 0.3);
+}
+.nao-metais{
+    border: 1px solid rgb(255, 0, 255);
+    background: rgb(255, 0, 255, 0.3);
+}
+.halogenio{
+    border: 1px solid rgb(208, 255, 0);
+    background: rgb(208, 255, 0, 0.3);
+}
+.artificial{
+    border: 1px solid rgb(30, 255, 0);
+    background: rgb(30, 255, 0, 0.3);
+}
+.gas-nobre{
+    border: 1px solid rgb(0, 195, 255);
+    background: rgb(0, 195, 255, 0.3);
+}
+.latinidios{
+    border: 1px solid rgb(165, 255, 209);
+    background: rgb(165, 255, 209, 0.3);
+}
