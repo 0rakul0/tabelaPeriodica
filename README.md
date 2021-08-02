@@ -1,5 +1,9 @@
 # tabelaPeriodica
  tabela periodica para alunos de quimica.
+ 
+ ```
+ https://0rakul0.github.io/tabelaPeriodica/
+```
 
 ## Front-end
 
