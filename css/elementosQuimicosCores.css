@@ -1,0 +1,44 @@
+.gas{
+    border: 1px solid rgb(0, 174, 255);
+    background: rgb(0, 174, 255, 0.3);
+}
+.alcalinos-metal{
+    border: 1px solid rgb(255, 0, 0);
+    background: rgb(255, 0, 0, 0.3);
+}
+.alcaliterroso-metal{
+    border: 1px solid rgb(255, 196, 0);
+    background: rgb(255, 196, 0, 0.3);
+}
+.metais{
+    border: 1px solid rgb(155, 155, 155);
+    background: rgb(155, 155, 155, 0.3);
+}
+.semi-metais{
+    border: 1px solid rgb(184, 238, 129);
+    background: rgb(184, 238, 129, 0.3);
+}
+.metais-Representativos{
+    border: 1px solid rgb(148, 255, 251);
+    background: rgb(148, 255, 251, 0.3);
+}
+.nao-metais{
+    border: 1px solid rgb(255, 0, 255);
+    background: rgb(255, 0, 255, 0.3);
+}
+.halogenio{
+    border: 1px solid rgb(208, 255, 0);
+    background: rgb(208, 255, 0, 0.3);
+}
+.artificial{
+    border: 1px solid rgb(30, 255, 0);
+    background: rgb(30, 255, 0, 0.3);
+}
+.gas-nobre{
+    border: 1px solid rgb(0, 195, 255);
+    background: rgb(0, 195, 255, 0.3);
+}
+.latinidios{
+    border: 1px solid rgb(165, 255, 209);
+    background: rgb(165, 255, 209, 0.3);
+}

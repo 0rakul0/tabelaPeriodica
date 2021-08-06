@@ -1,0 +1,47 @@
+.campos-elementos{
+    transition: 0.5;
+    margin-top: 100px;
+    width:750px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+.cabecalhoElemento{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 750px;
+}
+.card{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    padding: 5px;
+    z-index: 1
+}
+.caracteristicas{
+    display: flex;
+    flex-direction: column;
+}
+.caracteristicas span{
+    display: flex;
+    flex-direction: row;
+    width: 170px;
+    justify-content:space-between;
+    font-size: 12px;
+}
+.conteudoElemento{
+    margin-top: 30px;
+    position: relative;
+    text-align: justify;
+    font-size: 12px;
+}
+.conteudoElemento p{
+    margin-top: 15px;
+}
